@@ -46,7 +46,7 @@ nav ? document.body.classList.add('overflow-hidden') : document.body.classList.r
 
 
         <div   onClick={showNav} className={nav ? 'fixed left-0 top-0 w-full h-full bg-black/50 z-20': ''}></div>
-        <nav className={nav ? 'bg-white fixed left-0 top-0 z-50 h-full w-[300px] p-4 ease-in-out duration-300 rounded-r-xl' : 'fixed -left-full'}>
+        <nav className={nav ? 'bg-white fixed left-0 top-0 z-1000 h-full w-[300px] p-4 ease-in-out duration-300 rounded-r-xl' : 'fixed -left-full'}>
             <div className='flex justify-between py-5 mb-5'>
                <a href="/">
                 <img 
